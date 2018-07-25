@@ -24,8 +24,8 @@ npm start
 
 #### Use the REST Service
 ```
-curl http://localhost:8080/welcome
+curl http://localhost:3000/welcome
 ```
 ```
-curl http://localhost:8080/welcome/YOUR_NAME
+curl http://localhost:3000/welcome/YOUR_NAME
 ```
