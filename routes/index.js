@@ -1,10 +1,15 @@
 const express = require('express');
 const app = express();
 
-var welcome = function (req, res, next) {
+const welcome = function (req, res, next) {
+    res.send("Welcome to the Intelygenz talent test!")
+};
+
+const welcomeUser = function (req, res, next) {
     res.send( req.params );
 };
 
-app.get('/welcome/:username', welcome);
+app.get('/welcome', welcome);
+app.get('/welcome/:username', welcomeUser);
 
 module.exports = app;
