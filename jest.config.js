@@ -22,16 +22,16 @@ module.exports = {
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
   collectCoverageFrom: [
-    "routes/**",
-    "app.js"
+    'routes/**',
+    'app.js'
   ],
 
   // The directory where Jest should output its coverage files
-  coverageDirectory: "coverage",
+  coverageDirectory: 'coverage',
 
   // An array of regexp pattern strings used to skip coverage collection
   coveragePathIgnorePatterns: [
-    "/node_modules/"
+    '/node_modules/'
   ],
 
   // A list of reporter names that Jest uses when writing coverage reports
@@ -80,7 +80,7 @@ module.exports = {
   notify: false,
 
   // An enum that specifies notification mode. Requires { notify: true }
-  notifyMode: "always",
+  notifyMode: 'always',
 
   // A preset that is used as a base for Jest's configuration
   // preset: null,
@@ -124,7 +124,7 @@ module.exports = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: "node",
+  testEnvironment: 'node',
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
@@ -168,11 +168,11 @@ module.exports = {
   // unmockedModulePathPatterns: undefined,
 
   // Indicates whether each individual test should be reported during the run
-  verbose: true,
+  verbose: true
 
   // An array of regexp patterns that are matched against all source file paths before re-running tests in watch mode
   // watchPathIgnorePatterns: [],
 
   // Whether to use watchman for file crawling
   // watchman: true,
-};
+}
