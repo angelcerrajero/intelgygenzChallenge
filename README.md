@@ -29,9 +29,13 @@ curl http://localhost:3000/welcome
 ```
 curl http://localhost:3000/welcome/YOUR_NAME
 ```
+
+#### Issue 56 - Angel Cerrajero Solved on the next endpoint  
 ```
-#### Issue 56 - Angel Cerrajero Solved on the next Endpoint
 curl http://localhost:3000/sortNumbers/1,15,5,7,3
+```
 
 #### Example of the endpoint with ordened Numbers 
+```
 curl http://localhost:3000/sortNumbers/1,15,5,7,3
+```
