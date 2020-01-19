@@ -32,7 +32,7 @@ curl http://localhost:3000/welcome/YOUR_NAME
 
 #### Issue 56 - Angel Cerrajero Solved on the next endpoint  
 ```
-curl http://localhost:3000/sortNumbers/1,15,5,7,3
+curl http://localhost:3000/sortNumbers/:numbers
 ```
 
 #### Example of the endpoint with ordened Numbers 
