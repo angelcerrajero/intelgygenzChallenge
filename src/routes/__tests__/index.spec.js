@@ -19,3 +19,12 @@ describe('Welcome endpoint validation', () => {
     expect(response.body).toEqual(usernameJson)
   })
 })
+
+describe('SortNumbers endpoint validation', () => {
+  test('Validate numbers sorted', async () => {
+    const numbers = [1,15,5,7,3]
+    const response = await request(app).get('/sortNumbers/' + numbers)
+    expect(response.statusCode).toBe(200)
+    expect(response.body).toEqual([15,7,3,5,1])
+  })
+})
